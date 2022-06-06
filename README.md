@@ -1,8 +1,8 @@
-# Coronavirus (Covid-19) Data in the United States
+# Coronavirus (Covid-19) Data in State Prisons 
 
 **UPDATE: County-level data for cases and deaths is now available in separate files for each year: [us-counties-2020.csv](us-counties-2020.csv), [us-counties-2021.csv](us-counties-2021.csv) and [us-counties-2022.csv](us-counties-2022.csv). The existing [us-counties.csv](us-counties.csv) file will no longer be updated once it reaches the Github file size limit of 100MB.**
 
-The primary data published here are the daily cumulative number of cases and deaths reported in each county and state across the U.S. since the beginning of the pandemic. We have also published these additional data sets:
+The primary data employed here are the daily cumulative number of cases and deaths reported in each county and state across the U.S. since the beginning of the pandemic. We have also published these additional data sets:
 
 * [Prisons](prisons/): Cases in prisons
 * [Colleges](colleges/): Cases on college and university campuses.
