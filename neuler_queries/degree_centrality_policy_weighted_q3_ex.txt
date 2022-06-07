@@ -1,0 +1,35 @@
+# Degree Centrality Policy Q3 weighted 
+
+:use neo4j;
+Copy
+:param limit => ( 50);
+:param config => ({
+  relationshipWeightProperty: 'score'
+});
+:param graphConfig => ({
+  nodeProjection: '*',
+  relationshipProjection: {
+    relType: {
+      type: 'IMPLEMENTED_Q3_2020',
+      orientation: 'REVERSE',
+      properties: {
+        score: {
+          property: 'score',
+          defaultValue: 1
+        }
+      }
+    }
+  }
+});
+:param communityNodeLimit => ( 10);
+:param generatedName => ('in-memory-graph-1654596706377');
+Copy
+CALL gds.graph.create($generatedName, $graphConfig.nodeProjection, $graphConfig.relationshipProjection, {});
+Copy
+CALL gds.degree.stream($generatedName, $config) YIELD nodeId, score
+WITH gds.util.asNode(nodeId) AS node, score
+RETURN node, score
+ORDER BY score DESC
+LIMIT toInteger($limit);
+Copy
+CALL gds.graph.drop($generatedName);
