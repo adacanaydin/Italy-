@@ -1,0 +1,226 @@
+﻿,states,state_code,quarter,policy,score
+2,Alabama,AL,Q1,inmate_testing,2
+6,Alabama,AL,Q1,inmate_screening,13
+10,Alabama,AL,Q1,inmate_quarantine,13
+16,Alabama,AL,Q1,staff_masking,13
+20,Alabama,AL,Q1,staff_quarantine,13
+22,Alaska,AK,Q1,inmate_vaccination,13
+24,Alaska,AK,Q1,inmate_testing,13
+28,Alaska,AK,Q1,inmate_social_distance_sleep,13
+32,Alaska,AK,Q1,inmate_screening,13
+36,Alaska,AK,Q1,inmate_visitation_suspended,13
+39,Alaska,AK,Q1,staff_masking,13
+42,Arizona,AZ,Q1,inmate_testing,13
+46,Arizona,AZ,Q1,inmate_visitation_suspended,13
+50,Arizona,AZ,Q1,staff_masking,13
+55,Arkansas,AR,Q1,inmate_releases,13
+59,Arkansas,AR,Q1,inmate_screening,13
+63,Arkansas,AR,Q1,inmate_quarantine,13
+67,Arkansas,AR,Q1,inmate_visitation_suspended,13
+71,Arkansas,AR,Q1,staff_masking,13
+72,California,CA,Q1,inmate_vaccination,10
+76,California,CA,Q1,inmate_masking,13
+80,California,CA,Q1,inmate_releases,13
+84,California,CA,Q1,inmate_social_distance,13
+88,California,CA,Q1,inmate_screening,13
+92,California,CA,Q1,inmate_quarantine,13
+96,California,CA,Q1,inmate_visitation_suspended,13
+99,California,CA,Q1,staff_testing,13
+103,California,CA,Q1,staff_masking,13
+107,California,CA,Q1,staff_quarantine,13
+108,Colorado,CO,Q1,inmate_vaccination,12
+112,Colorado,CO,Q1,inmate_testing,13
+116,Colorado,CO,Q1,inmate_masking,13
+130,Colorado,CO,Q1,staff_masking,13
+131,Connecticut,CT,Q1,inmate_vaccination,8
+148,Delaware,DE,Q1,inmate_testing,13
+154,Delaware,DE,Q1,inmate_screening,13
+159,Delaware,DE,Q1,staff_testing,13
+163,Delaware,DE,Q1,staff_masking,13
+169,Florida,FL,Q1,inmate_masking,9
+171,Florida,FL,Q1,inmate_screening,13
+175,Florida,FL,Q1,inmate_quarantine,13
+182,Florida,FL,Q1,staff_masking,13
+186,Florida,FL,Q1,staff_quarantine,13
+190,Georgia,GA,Q1,inmate_releases,13
+194,Georgia,GA,Q1,inmate_screening,13
+198,Georgia,GA,Q1,inmate_visitation_suspended,13
+202,Georgia,GA,Q1,staff_quarantine,13
+206,Hawaii,HI,Q1,inmate_releases,13
+210,Hawaii,HI,Q1,inmate_social_distance,13
+214,Hawaii,HI,Q1,inmate_screening,13
+218,Hawaii,HI,Q1,inmate_quarantine,13
+222,Hawaii,HI,Q1,inmate_visitation_suspended,13
+226,Hawaii,HI,Q1,staff_masking,13
+230,Hawaii,HI,Q1,staff_quarantine,13
+231,Idaho,ID,Q1,inmate_vaccination,5
+234,Idaho,ID,Q1,inmate_testing,13
+237,Idaho,ID,Q1,inmate_masking,13
+241,Idaho,ID,Q1,inmate_social_distance,13
+245,Idaho,ID,Q1,inmate_screening,13
+249,Idaho,ID,Q1,inmate_quarantine,13
+253,Idaho,ID,Q1,inmate_visitation_suspended,13
+256,Idaho,ID,Q1,staff_testing,13
+260,Idaho,ID,Q1,staff_masking,13
+264,Idaho,ID,Q1,staff_quarantine,13
+265,Illinois,IL,Q1,inmate_vaccination,6
+267,Illinois,IL,Q1,inmate_testing,13
+271,Illinois,IL,Q1,inmate_masking,13
+275,Illinois,IL,Q1,inmate_releases,13
+278,Illinois,IL,Q1,inmate_screening,13
+282,Illinois,IL,Q1,inmate_quarantine,13
+286,Illinois,IL,Q1,inmate_visitation_suspended,13
+288,Illinois,IL,Q1,staff_testing,13
+292,Illinois,IL,Q1,staff_masking,13
+296,Illinois,IL,Q1,staff_quarantine,13
+300,Indiana,IN,Q1,inmate_social_distance,13
+304,Indiana,IN,Q1,inmate_screening,13
+308,Indiana,IN,Q1,inmate_quarantine,13
+312,Indiana,IN,Q1,inmate_visitation_suspended,13
+316,Indiana,IN,Q1,staff_masking,13
+319,Iowa,IA,Q1,inmate_testing,13
+322,Iowa,IA,Q1,inmate_masking,13
+326,Iowa,IA,Q1,inmate_releases,13
+330,Iowa,IA,Q1,inmate_screening,13
+334,Iowa,IA,Q1,inmate_quarantine,13
+338,Iowa,IA,Q1,inmate_visitation_suspended,13
+342,Iowa,IA,Q1,staff_masking,13
+346,Iowa,IA,Q1,staff_quarantine,13
+347,Kansas,KS,Q1,inmate_vaccination,7
+350,Kansas,KS,Q1,inmate_masking,13
+354,Kansas,KS,Q1,inmate_social_distance,13
+358,Kansas,KS,Q1,inmate_social_distance_sleep,13
+362,Kansas,KS,Q1,inmate_screening,13
+366,Kansas,KS,Q1,inmate_quarantine,13
+370,Kansas,KS,Q1,inmate_visitation_suspended,13
+375,Kansas,KS,Q1,staff_masking,13
+378,Kentucky,KY,Q1,inmate_testing,13
+382,Kentucky,KY,Q1,inmate_masking,13
+387,Kentucky,KY,Q1,inmate_visitation_suspended,13
+391,Kentucky,KY,Q1,staff_masking,13
+392,Louisiana,LA,Q1,inmate_vaccination,3
+398,Louisiana,LA,Q1,inmate_visitation_suspended,10
+399,Maine,ME,Q1,inmate_vaccination,1
+403,Maine,ME,Q1,inmate_testing,13
+407,Maine,ME,Q1,inmate_social_distance,13
+411,Maine,ME,Q1,inmate_screening,13
+413,Maine,ME,Q1,inmate_quarantine,13
+417,Maine,ME,Q1,inmate_visitation_suspended,11
+419,Maine,ME,Q1,staff_masking,13
+423,Maryland,MD,Q1,inmate_testing,13
+426,Maryland,MD,Q1,inmate_masking,13
+430,Maryland,MD,Q1,inmate_releases,13
+433,Maryland,MD,Q1,inmate_social_distance,13
+437,Maryland,MD,Q1,inmate_screening,13
+441,Maryland,MD,Q1,inmate_quarantine,13
+445,Maryland,MD,Q1,inmate_visitation_suspended,13
+449,Maryland,MD,Q1,staff_testing,13
+453,Maryland,MD,Q1,staff_masking,13
+457,Maryland,MD,Q1,staff_quarantine,13
+458,Massachusetts,MA,Q1,inmate_vaccination,10
+465,Massachusetts,MA,Q1,inmate_releases,13
+469,Massachusetts,MA,Q1,inmate_visitation_suspended,13
+474,Massachusetts,MA,Q1,staff_masking,13
+475,Michigan,MI,Q1,inmate_vaccination,3
+479,Michigan,MI,Q1,inmate_testing,13
+483,Michigan,MI,Q1,inmate_masking,13
+487,Michigan,MI,Q1,inmate_releases,13
+491,Michigan,MI,Q1,inmate_social_distance,13
+495,Michigan,MI,Q1,inmate_quarantine,13
+499,Michigan,MI,Q1,inmate_visitation_suspended,12
+503,Michigan,MI,Q1,staff_masking,13
+504,Minnesota,MN,Q1,inmate_vaccination,12
+508,Minnesota,MN,Q1,inmate_testing,13
+512,Minnesota,MN,Q1,inmate_masking,13
+518,Minnesota,MN,Q1,inmate_screening,13
+524,Minnesota,MN,Q1,staff_testing,13
+528,Minnesota,MN,Q1,staff_masking,13
+532,Mississippi,MS,Q1,inmate_social_distance,2
+536,Mississippi,MS,Q1,inmate_screening,2
+540,Mississippi,MS,Q1,inmate_quarantine,2
+544,Mississippi,MS,Q1,inmate_visitation_suspended,2
+548,Mississippi,MS,Q1,staff_masking,2
+553,Missouri,MO,Q1,inmate_masking,2
+557,Missouri,MO,Q1,inmate_social_distance,2
+561,Missouri,MO,Q1,inmate_screening,2
+565,Missouri,MO,Q1,inmate_quarantine,2
+569,Missouri,MO,Q1,inmate_visitation_suspended,2
+573,Missouri,MO,Q1,staff_testing,2
+576,Missouri,MO,Q1,staff_masking,2
+580,Missouri,MO,Q1,staff_quarantine,2
+584,Montana,MT,Q1,inmate_testing,2
+588,Montana,MT,Q1,inmate_releases,2
+592,Montana,MT,Q1,inmate_screening,2
+596,Montana,MT,Q1,inmate_quarantine,2
+600,Montana,MT,Q1,inmate_visitation_suspended,2
+604,Montana,MT,Q1,staff_testing,2
+608,Montana,MT,Q1,staff_masking,2
+612,Nebraska,NE,Q1,inmate_testing,2
+616,Nebraska,NE,Q1,inmate_masking,2
+620,Nebraska,NE,Q1,inmate_social_distance,2
+624,Nebraska,NE,Q1,inmate_screening,2
+628,Nebraska,NE,Q1,inmate_quarantine,2
+632,Nebraska,NE,Q1,inmate_visitation_suspended,2
+636,Nebraska,NE,Q1,staff_masking,2
+640,Nebraska,NE,Q1,staff_quarantine,2
+641,Nevada,NV,Q1,inmate_vaccination,4
+645,Nevada,NV,Q1,inmate_testing,13
+646,Nevada,NV,Q1,inmate_masking,12
+650,Nevada,NV,Q1,inmate_screening,13
+654,Nevada,NV,Q1,inmate_quarantine,13
+658,Nevada,NV,Q1,inmate_visitation_suspended,13
+662,Nevada,NV,Q1,staff_testing,13
+666,Nevada,NV,Q1,staff_masking,13
+670,New Hampshire,NH,Q1,inmate_social_distance,13
+674,New Hampshire,NH,Q1,inmate_screening,13
+678,New Hampshire,NH,Q1,inmate_quarantine,13
+684,New Hampshire,NH,Q1,staff_masking,13
+688,New Jersey,NJ,Q1,inmate_testing,13
+692,New Jersey,NJ,Q1,inmate_releases,13
+696,New Jersey,NJ,Q1,inmate_social_distance,13
+700,New Jersey,NJ,Q1,inmate_screening,13
+704,New Jersey,NJ,Q1,inmate_quarantine,13
+708,New Jersey,NJ,Q1,inmate_visitation_suspended,13
+712,New Jersey,NJ,Q1,staff_testing,13
+716,New Jersey,NJ,Q1,staff_masking,13
+720,New Jersey,NJ,Q1,staff_quarantine,13
+721,New Mexico,NM,Q1,inmate_vaccination,10
+725,New Mexico,NM,Q1,inmate_masking,13
+729,New Mexico,NM,Q1,inmate_releases,13
+733,New Mexico,NM,Q1,inmate_screening,13
+737,New Mexico,NM,Q1,inmate_quarantine,13
+741,New Mexico,NM,Q1,inmate_visitation_suspended,13
+745,New Mexico,NM,Q1,staff_testing,13
+749,New Mexico,NM,Q1,staff_masking,13
+753,New Mexico,NM,Q1,staff_quarantine,13
+798,Oklahoma,OK,Q1,inmate_vaccination,3
+801,Oklahoma,OK,Q1,inmate_testing,13
+805,Oklahoma,OK,Q1,inmate_screening,13
+808,Oklahoma,OK,Q1,inmate_quarantine,13
+811,Oklahoma,OK,Q1,inmate_visitation_suspended,13
+814,Oklahoma,OK,Q1,staff_masking,13
+815,Oregon,OR,Q1,inmate_vaccination,3
+821,Oregon,OR,Q1,inmate_releases,13
+825,Oregon,OR,Q1,inmate_visitation_suspended,13
+830,Pennsylvania,PA,Q1,inmate_vaccination,3
+838,Rhode Island,RI,Q1,inmate_vaccination,2
+1001,West Virginia,WV,Q1,inmate_testing,13
+1005,West Virginia,WV,Q1,inmate_masking,13
+1009,West Virginia,WV,Q1,inmate_releases,13
+1013,West Virginia,WV,Q1,inmate_screening,13
+1017,West Virginia,WV,Q1,inmate_quarantine,13
+1021,West Virginia,WV,Q1,inmate_visitation_suspended,13
+1025,West Virginia,WV,Q1,staff_testing,13
+1029,West Virginia,WV,Q1,staff_masking,13
+1035,Wisconsin,WI,Q1,inmate_masking,13
+1039,Wisconsin,WI,Q1,inmate_releases,13
+1043,Wisconsin,WI,Q1,inmate_social_distance,13
+1047,Wisconsin,WI,Q1,inmate_quarantine,13
+1051,Wisconsin,WI,Q1,inmate_visitation_suspended,13
+1056,Wisconsin,WI,Q1,staff_masking,13
+1060,Wisconsin,WI,Q1,staff_quarantine,13
+1065,Wyoming,WY,Q1,inmate_social_distance,13
+1069,Wyoming,WY,Q1,inmate_screening,13
+1073,Wyoming,WY,Q1,inmate_visitation_suspended,13
+1076,Wyoming,WY,Q1,staff_testing,13
+1080,Wyoming,WY,Q1,staff_masking,13

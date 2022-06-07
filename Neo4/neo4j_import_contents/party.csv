@@ -1,0 +1,51 @@
+id,party_id,party,states,state_code
+0,0,Republican,Alabama,AL
+1,0,Republican,Alaska,AK
+2,0,Republican,Arizona,AZ
+3,0,Republican,Arkansas,AR
+4,1,Democratic,California,CA
+5,1,Democratic,Colorado,CO
+6,1,Democratic,Connecticut,CT
+7,1,Democratic,Delaware,DE
+8,0,Republican,Florida,FL
+9,0,Republican,Georgia,GA
+10,1,Democratic,Hawaii,HI
+11,0,Republican,Idaho,ID
+12,1,Democratic,Illinois,IL
+13,0,Republican,Indiana,IN
+14,0,Republican,Iowa,IA
+15,0,Republican,Kansas,KS
+16,0,Republican,Kentucky,KY
+17,0,Republican,Louisiana,LA
+18,1,Democratic,Maine,ME
+19,1,Democratic,Maryland,MD
+20,1,Democratic,Massachusetts,MA
+21,0,Republican,Michigan,MI
+22,1,Democratic,Minnesota,MN
+23,0,Republican,Mississippi,MS
+24,0,Republican,Missouri,MO
+25,0,Republican,Montana,MT
+26,0,Republican,Nebraska,NE
+27,1,Democratic,Nevada,NV
+28,1,Democratic,New Hampshire,NH
+29,1,Democratic,New Jersey,NJ
+30,1,Democratic,New Mexico,NM
+31,1,Democratic,New York,NY
+32,0,Republican,North Carolina,NC
+33,0,Republican,North Dakota,ND
+34,0,Republican,Ohio,OH
+35,0,Republican,Oklahoma,OK
+36,1,Democratic,Oregon,OR
+37,0,Republican,Pennsylvania,PA
+38,1,Democratic,Rhode Island,RI
+39,0,Republican,South Carolina,SC
+40,0,Republican,South Dakota,SD
+41,0,Republican,Tennessee,TN
+42,0,Republican,Texas,TX
+43,0,Republican,Utah,UT
+44,1,Democratic,Vermont,VT
+45,1,Democratic,Virginia,VA
+46,1,Democratic,Washington,WA
+47,0,Republican,West Virginia,WV
+48,0,Republican,Wisconsin,WI
+49,0,Republican,Wyoming,WY

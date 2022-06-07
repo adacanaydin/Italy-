@@ -1,0 +1,56 @@
+# Remove all nodes
+
+MATCH (n) OPTIONAL MATCH (n)-[r]-() DELETE n,r
+
+# Drop all constraints in one line
+CALL apoc.schema.assert({}, {})
+
+# DROP CONSTRAINT ON (State:State) ASSERT State.id IS UNIQUE
+# DROP CONSTRAINT ON (Policy:Policy) ASSERT Policy.id IS UNIQUE
+# DROP CONSTRAINT ON (Party:Party) ASSERT Party.id IS UNIQUE
+
+CREATE CONSTRAINT ON (State:State) ASSERT State.id IS UNIQUE
+CREATE CONSTRAINT ON (Policy:Policy) ASSERT Policy.id IS UNIQUE
+CREATE CONSTRAINT ON (Party:Party) ASSERT Party.id IS UNIQUE
+
+LOAD CSV WITH HEADERS FROM "file:///data_norm.csv" AS csvLine
+CREATE (State:State {id: toInteger(csvLine.id), name: csvLine.states, prison_capacity_avg : toFloat(csvLine.avg_capacity), prison_budget : toFloat(csvLine.perc_budget), inmate_deaths_Q2_2020:toFloat(csvLine.resident_deaths_q2_2020), inmate_deaths_Q3_2020 : toFloat(csvLine.resident_deaths_q3_2020), inmate_deaths_Q4_2020 : toFloat(csvLine.resident_deaths_q4_2020), inmate_deaths_Q1_2021 :toFloat(csvLine.resident_deaths_q1_2021), inmate_cases_Q2_2020:toFloat(csvLine.resident_cases_q2_2020), inmate_cases_Q3_2020 : toFloat(csvLine.resident_cases_q3_2020), inmate_cases_Q4_2020 : toFloat(csvLine.resident_cases_q4_2020), inmate_cases_Q1_2021 :toFloat(csvLine.resident_cases_q1_2021)                       
+})
+
+LOAD CSV WITH HEADERS FROM "file:///policy_list.csv" AS csvLine
+MERGE (Policy:Policy {id: toInteger(csvLine.id), name: csvLine.policy})
+ 
+LOAD CSV WITH HEADERS FROM "file:///party.csv" AS csvLine
+MERGE (Party:Party {id: toInteger(csvLine.party_id), name: csvLine.party})
+
+# Relationship State and Party
+
+LOAD CSV WITH HEADERS FROM "file:///party.csv" AS csvLine
+MATCH (State:State { name:csvLine.states}),(Party:Party { name:csvLine.party})
+MERGE (State)-[:VOTED]->(Party)
+ 
+
+# Relationship State and Policy (With weights)
+
+LOAD CSV WITH HEADERS FROM "file:///policy_scores_q2.csv" AS csvLine
+MATCH (State:State { name:csvLine.states}),(Policy:Policy { name:csvLine.policy})
+MERGE  (State)-[:IMPLEMENTED_Q2_2020{score: toInteger(csvLine.score)}]->(Policy)
+
+LOAD CSV WITH HEADERS FROM "file:///policy_scores_q3.csv" AS csvLine
+MATCH (State:State { name:csvLine.states}),(Policy:Policy { name:csvLine.policy})
+MERGE  (State)-[:IMPLEMENTED_Q3_2020{score: toInteger(csvLine.score)}]->(Policy)
+
+LOAD CSV WITH HEADERS FROM "file:///policy_scores_q4.csv" AS csvLine
+MATCH (State:State { name:csvLine.states}),(Policy:Policy { name:csvLine.policy})
+MERGE  (State)-[:IMPLEMENTED_Q4_2020{score: toInteger(csvLine.score)}]->(Policy)
+
+LOAD CSV WITH HEADERS FROM "file:///policy_scores_q1.csv" AS csvLine
+MATCH (State:State { name:csvLine.states}),(Policy:Policy { name:csvLine.policy})
+MERGE  (State)-[:IMPLEMENTED_Q1_2021{score: toInteger(csvLine.score)}]->(Policy)
+
+match (n) return n
+
+
+
+
+
